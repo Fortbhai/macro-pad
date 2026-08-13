@@ -6,34 +6,30 @@
 A customizable 3‑key macro pad designed for productivity, gaming, and creative workflows.  
 This repo contains **firmware, hardware design files, documentation, and a complete BOM** so anyone can build, flash, and ship their own macro pad.
 
----
 
-## ✨ Features
+## Features
 - 3 programmable mechanical keys
 - Compatible with QMK firmware
 - Compact PCB design
 - USB‑C connectivity
-- Open‑source case design files (.SCAD, .STL, .STEP)
+- Open‑source case design files 
 
----
 
-## 📂 Repository Structure
+
+##  Repository Structure
 - **README.md** → Project overview and instructions  
 - **BOM.md** → Complete list of required parts  
-- **firmware/** → QMK firmware files (`config.h`, `rules.mk`, `keymap.c`)  
-- **hardware/** → PCB and case design files (`.scad`, `.stl`, `.step`)  
-- **docs/** → Assembly guide and shipping instructions  
-- **LICENSE** → Usage rights  
+- **firmware/** → QMK firmware files 
+- **hardware/** → PCB and case design files 
 
----
 
-## 🛠️ Bill of Materials (BOM)
-See [BOM.md](./BOM.md) for the full list of parts, including switches, diodes, PCB, and microcontroller.
 
----
+##  Bill of Materials (BOM)
+See [BOM.md](https://github.com/Fortbhai/macro-pad/blob/main/BOM) for the full list of parts, including switches, diodes, PCB, and microcontroller.
 
-## 🔧 Assembly Guide
-See [docs/assembly_guide.md](./docs/assembly_guide.md) for step‑by‑step build instructions:
+
+##  Assembly Guide
+
 1. Solder diodes to the PCB.  
 2. Mount switches and keycaps.  
 3. Attach the Arduino Pro Micro.  
@@ -41,10 +37,10 @@ See [docs/assembly_guide.md](./docs/assembly_guide.md) for step‑by‑step buil
 5. Connect via USB‑C.  
 6. Flash firmware using QMK Toolbox.  
 
----
 
 
-## 💻 Firmware
+
+##  Firmware
 Firmware files are located in [firmware/](./firmware).  
 Compile with QMK:
 ```bashqmk compile -kb macro_pad -km default
