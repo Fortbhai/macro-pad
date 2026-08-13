@@ -1,5 +1,6 @@
 # macro-pad
-
+## preview
+![Website Preview](https://github.com/Fortbhai/macro-pad/blob/main/Screenshot%202026-08-10%20145616.png)
 # Macro Pad
 
 A customizable 3‑key macro pad designed for productivity, gaming, and creative workflows.  
@@ -42,13 +43,11 @@ See [docs/assembly_guide.md](./docs/assembly_guide.md) for step‑by‑step buil
 
 ---
 
+
 ## 💻 Firmware
 Firmware files are located in [firmware/](./firmware).  
 Compile with QMK:
-```bash
-qmk compile -kb macro_pad -km default
+```bashqmk compile -kb macro_pad -km default
 
 
-## preview
-![Website Preview](https://github.com/Fortbhai/macro-pad/blob/main/Screenshot%202026-08-10%20145616.png)
 
