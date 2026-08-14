@@ -1,0 +1,9 @@
+Part,Quantity,Link,Notes
+Arduino Pro Micro (ATmega32U4),1,https://www.sparkfun.com/products/12640,Main microcontroller
+Cherry MX Switches,3,https://www.kailh.com/en/products/Ks/,MX-compatible mechanical switches
+Keycaps,3,https://kbdfans.com/collections/keycaps,Any MX-compatible keycaps
+Diodes (1N4148),3,https://www.digikey.in/en/products/detail/1N4148,For switch matrix
+Custom PCB (macro-pad v1.0),1,https://jlcpcb.com/,Fabricate using Gerbers
+USB-C Cable,1,https://www.amazon.in/s?k=usb+c+cable,Power and data connection
+Case (3D printed),1,https://fortbhai.github.io/my-first-website/,Use provided SCAD/STL/STEP files
+M2 Screws,4,https://www.aliexpress.com/item/32812345678.html,For case assembly
