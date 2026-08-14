@@ -3,9 +3,8 @@
 ![Website Preview](https://github.com/Fortbhai/macro-pad/blob/main/Screenshot%202026-08-10%20145616.png)
 # Macro Pad
 
-A customizable 3‑key macro pad designed for productivity, gaming, and creative workflows.  
-This repo contains **firmware, hardware design files, documentation, and a complete BOM** so anyone can build, flash, and ship their own macro pad.
-
+A customizable 3‑key macro pad .
+This repo contains **firmware, hardware design files, documentation, and a complete BOM** so anyone can build.
 
 ## Features
 - 3 programmable mechanical keys
@@ -16,15 +15,7 @@ This repo contains **firmware, hardware design files, documentation, and a compl
 
 
 
-##  Repository Structure
-- **README.md** → Project overview and instructions  
-- **BOM.md** → Complete list of required parts  
-- **firmware/** → QMK firmware files 
-- **hardware/** → PCB and case design files 
-
-
-
-##  Bill of Materials (BOM)
+##  Bill of Materials 
 See [BOM.md](https://github.com/Fortbhai/macro-pad/blob/main/BOM) for the full list of parts, including switches, diodes, PCB, and microcontroller.
 
 
@@ -35,15 +26,9 @@ See [BOM.md](https://github.com/Fortbhai/macro-pad/blob/main/BOM) for the full l
 3. Attach the Arduino Pro Micro.  
 4. Assemble case (top + bottom).  
 5. Connect via USB‑C.  
-6. Flash firmware using QMK Toolbox.  
+6. Flash firmware 
 
-
-
-
-##  Firmware
-Firmware files are located in [firmware/](./firmware).  
-Compile with QMK:
-```bashqmk compile -kb macro_pad -km default
+actually i have just made it in free time. if u want u can fully customize it according to ur choice
 
 
 
